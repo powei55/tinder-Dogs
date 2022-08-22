@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    margin-top: 1em; 
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+/* typography */
+p,h2 {
+    color: #fff;
+    padding-left: .5rem; 
+     margin: 0;
+     width: 70%;
+}
+
+
+
+h2 {
+    margin-top: -4rem; 
+    font-weight: 900;
+}
+main {
+  
+}
+header, .footer-image {
+    padding: 20px 0
+}
+
+
+/* layout */
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    background-image: linear-gradient( #ffff, #E5E5E5);
+    padding: 0 2em;
+}
+.header-image {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    border-radius: 10px;
+}
+
+ .icons {
+    display: inline-block;
+    height: 1rem;
+    transform: scale(1);
+    transition: transform 250ms;
+    
+}
+ .icons:hover,
+ .icons:focus {
+    transform: scale(1.2);
+}
+#section-one img {
+    position: absolute;
+    height: 2rem;
+    margin: 1rem;
+    display: inline-block;
+}
+
+  .hidden-like,
+  .hidden-nope {
+    display: none;
+    transform: rotate(-30deg)
+}
+
+.tinder-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.footer-image img {
+    height: 2rem;
+    margin-left: .5em;
+}
+
+ .radius {
+    border-radius: 50%;
+    background: #ffffff;
+    padding: .5rem
+}
+
+#cross-btn:active,
+#cross-btn:focus { 
+    background: #F9655C;
+} 
+
+#heart-btn:active,
+#heart-btn:focus {
+    background: #29D78A;
+}
+
+
+@media(min-width:500px) {
+    .container {
+        max-width: 500px;
+        width: 90%;
+        margin: 0 auto;
+        background-image: linear-gradient( #ffff, #E5E5E5);
+        padding: 0 2em;
+    }
+    .avatar {
+        height: 30em;
+    }
+}
+
+
+
+
+
+
+
